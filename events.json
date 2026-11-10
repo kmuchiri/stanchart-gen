@@ -1,8 +1,8 @@
 [
-    {"eventName":"5K","eventURL":""},
-    {"eventName":"10K","eventURL":""},
-    {"eventName":"half-marathon","eventURL":""},
-    {"eventName":"wheelchair-half","eventURL":""},
+    {"eventName":"5K","eventURL":"https://eventresults-api.speedhive.com/sporthive/races/c8033ed3-30d8-4669-aa47-f07b56393689/"},
+    {"eventName":"10K","eventURL":"https://eventresults-api.speedhive.com/sporthive/races/99fb4024-a534-4390-8134-406d10e4361c/"},
+    {"eventName":"half-marathon","eventURL":"https://eventresults-api.speedhive.com/sporthive/races/b58fd307-ba6c-4a6b-84d2-0e871fc30454/"},
+    {"eventName":"wheelchair-half","eventURL":"https://eventresults-api.speedhive.com/sporthive/races/617743da-1ef9-40c9-8bc6-0571d26b9022/"},
     {"eventName":"full-marathon","eventURL":"https://eventresults-api.speedhive.com/sporthive/races/bfed2a99-f96a-4116-b4b6-739b5cc22f95/"}
 
 ]

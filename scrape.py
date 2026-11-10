@@ -1,8 +1,11 @@
 import csv
 import requests
+from bs4 import beautifulsoup
 import xml.etree.ElementTree as ET
+from pathlib import Path
+import os
 
-process_folder='data/processing/xml'
+process_folder=Path("data/processing/xml")
 
 '''
 loadXML
