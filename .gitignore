@@ -1,2 +1,6 @@
 /docs/events.txt
 *.xml
+__pycache__/
+*.py[cod]
+logs/*.log
+*.csv
