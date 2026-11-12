@@ -1,7 +1,7 @@
-# stanchart-gen
+# Stanchart-Gen
 A web scraper and dataset generator for the Standard Chartered Nairobi Marathon.
 
-## Py
+## Features
 - **Scraper (`scrape.py`)**: Fetches marathon results paginated in XML format from the official timing results endpoint.
 - **XML-to-CSV Parser (`xmlparser.py`)**: Parses nested XML participant and split records into clean tabular CSV files.
 - **Console Interface (`console.py`)**: Interactive entry point to scrape or parse data.
