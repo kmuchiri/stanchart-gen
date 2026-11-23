@@ -1,3 +1,4 @@
+import re
 def time_parser(time_fig:str) -> float | None:
     '''
     Takes a given value of time, determines if it is minutes, seconds or hours and outputs the time in seconds
@@ -8,6 +9,11 @@ def time_parser(time_fig:str) -> float | None:
     returns:
     float of time in seconds
     '''
+
+    valid = re.findall(r"[^0-9:.]",time_fig)
+    if len(valid) > 0:
+        return None
+    
     time_seg = time_fig.split(":")
 
     if len(time_seg) == 1:
@@ -18,4 +24,3 @@ def time_parser(time_fig:str) -> float | None:
         return float(time_seg[0]) * 60 * 60 + float(time_seg[1]) * 60 + float(time_seg[2])
     else:
         return None
-    
