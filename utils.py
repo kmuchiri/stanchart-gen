@@ -1,4 +1,4 @@
-def time_to_sec (time_fig:str) -> float | None:
+def time_parser(time_fig:str) -> float | None:
     '''
     Takes a given value of time, determines if it is minutes, seconds or hours and outputs the time in seconds
     
